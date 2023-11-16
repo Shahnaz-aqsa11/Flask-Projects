@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(118, 128, 128);
+    margin-top: 50px;
+    border-radius: 9px;
+    min-height: 100vh;
+    text-align: center;
+    padding: 27px;
+
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 9px;
+    color: rgb(123, 120, 120);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 60px;
+}
+
+@media (max-width: 354px) {
+    .box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+
+    }
+
+    a {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 265px) {
+    .box {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+}
+
+
+button {
+    padding: 30px;
+}
+
+.add-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 9px;
+    color: rgb(123, 120, 120);
+    margin: 50px 60px;
+    height: 52vh;
+    text-align: left;
+}
+
+.home-page {
+
+    margin: 10px 0;
+    width: 123px;
+
+}
+
+@media(max-width:280px) {
+    .home-page {
+
+
+        width: 85px;
+
+    }
+}
+
+/* next and previous buttons */
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #0e48aa;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
